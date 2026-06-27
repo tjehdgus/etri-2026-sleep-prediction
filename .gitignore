@@ -1,0 +1,54 @@
+# ===== 절대 공개 금지: 대회 데이터 (라이선스 + 개인정보) =====
+data/
+*.parquet
+
+# ===== 데이터 파생물 / 대용량 / 예측값 =====
+*.npz
+*.npy
+submission*.csv
+archive/
+전달용.zip
+
+# ===== 남의 코드(다른 참가자 공유 노트북) — 저작권상 공개 금지 =====
+참고자료/
+
+# ===== 대회측 자료(스크린샷) =====
+대회 소개/
+
+# ===== 중복 / 옛 패키지 =====
+전달용/
+제출_최종/
+
+# ===== 개발 과정 잔해(실험 스크립트·로그 500여개) — 깔끔한 공개 리포를 위해 제외 =====
+# (전체 개발 기록을 공개하고 싶으면 이 줄을 지우세요)
+night/
+
+# ===== 개발 부속(공개 리포엔 미포함; 디스크엔 보존) =====
+_개발원본/
+external_methods/
+SUBMISSIONS_GUIDE.md
+
+# ===== LaTeX 빌드 잔재 =====
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+
+# ===== 파이썬 / 노트북 =====
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== paper 빌드 부속(repo 미포함; 디스크 보존) =====
+paper/IEEEtran.cls
+paper/*.zip
+paper/gen_cache.py
+paper/make_figs.py
+paper/README.md
